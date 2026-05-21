@@ -1,0 +1,5 @@
+# Build outputs
+*.xpi
+
+# Local source wordlist
+spelling_dictionary.txt
