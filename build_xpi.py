@@ -12,11 +12,11 @@ def build_xpi():
         "name": "Türkçe Yazım Denetimi Sözlüğü (Turkish Spelling Dictionary)",
         "version": "2.1.0",
         "description": "Turkish spelling dictionary for Firefox, including corrected â/î circumflex spelling entries.",
-        "author": "Selim",
+        "author": "Selim Şumlu",
         "homepage_url": "https://github.com/selimsum/hunspell-tr",
         "dictionaries": {
-            "tr": "dictionaries/tr_TR.dic",
-            "tr-TR": "dictionaries/tr_TR.dic"
+            "tr": "dictionaries/tr.dic",
+            "tr-TR": "dictionaries/tr.dic"
         },
         "browser_specific_settings": {
             "gecko": {
@@ -28,8 +28,8 @@ def build_xpi():
 
     # Files to include in the package
     files_to_pack = {
-        "tr_TR.dic": "dictionaries/tr_TR.dic",
-        "tr_TR.aff": "dictionaries/tr_TR.aff",
+        "tr.dic": "dictionaries/tr.dic",
+        "tr.aff": "dictionaries/tr.aff",
         "LICENSE": "LICENSE"
     }
 
