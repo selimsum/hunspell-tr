@@ -2,9 +2,9 @@
   "manifest_version": 2,
   "name": "Türkçe Yazım Denetimi Sözlüğü (Turkish Spelling Dictionary)",
   "version": "2.1.0",
-  "description": "Turkish spelling dictionary for Firefox, including corrected â/î circumflex spelling entries.",
+  "description": "Comprehensive Turkish spelling dictionary for Firefox based on TDK and Dil Derneği guidelines. Includes circumflex marks (â, î, û), modern vocabulary, and TDK 12th Edition corrections.",
   "author": "Selim Şumlu",
-  "homepage_url": "https://github.com/selimsum/hunspell-tr",
+  "homepage_url": "https://github.com/selimsum/hunspell-tr-moz",
   "dictionaries": {
     "tr": "dictionaries/tr.dic",
     "tr-TR": "dictionaries/tr.dic"
