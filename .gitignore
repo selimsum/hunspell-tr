@@ -3,3 +3,7 @@
 
 # Local source wordlist
 spelling_dictionary.txt
+
+# Python scripts (except build_xpi.py)
+*.py
+!build_xpi.py
